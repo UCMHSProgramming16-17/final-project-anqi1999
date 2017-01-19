@@ -1,163 +1,163 @@
 age,sex,life remaining
-0y,male,"59 years, 0 months, 29 days"
-0y,female,"63 years, 4 months, 24 days"
-1y,male,"62 years, 11 months, 27 days"
-1y,female,"66 years, 11 months, 19 days"
-2y,male,"64 years, 5 months, 23 days"
-2y,female,"68 years, 3 months, 14 days"
-3y,male,"64 years, 3 months, 1 days"
-3y,female,"68 years, 0 months, 4 days"
-4y,male,"63 years, 0 months, 5 days"
-4y,female,"66 years, 9 months, 16 days"
-5y,male,"61 years, 5 months, 20 days"
-5y,female,"65 years, 3 months, 14 days"
-6y,male,"60 years, 2 months, 10 days"
-6y,female,"64 years, 0 months, 8 days"
-7y,male,"59 years, 2 months, 17 days"
-7y,female,"63 years, 0 months, 8 days"
-8y,male,"58 years, 5 months, 1 days"
-8y,female,"62 years, 2 months, 11 days"
-9y,male,"57 years, 8 months, 14 days"
-9y,female,"61 years, 5 months, 11 days"
-10y,male,"56 years, 11 months, 19 days"
-10y,female,"60 years, 8 months, 2 days"
-11y,male,"56 years, 1 months, 14 days"
-11y,female,"59 years, 9 months, 19 days"
-12y,male,"55 years, 2 months, 4 days"
-12y,female,"58 years, 10 months, 4 days"
-13y,male,"54 years, 2 months, 2 days"
-13y,female,"57 years, 9 months, 28 days"
-14y,male,"53 years, 1 months, 19 days"
-14y,female,"56 years, 9 months, 10 days"
-15y,male,"52 years, 1 months, 7 days"
-15y,female,"55 years, 8 months, 23 days"
-16y,male,"51 years, 1 months, 7 days"
-16y,female,"54 years, 8 months, 13 days"
-17y,male,"50 years, 1 months, 18 days"
-17y,female,"53 years, 8 months, 12 days"
-18y,male,"49 years, 2 months, 9 days"
-18y,female,"52 years, 8 months, 18 days"
-19y,male,"48 years, 3 months, 6 days"
-19y,female,"51 years, 8 months, 28 days"
-20y,male,"47 years, 4 months, 9 days"
-20y,female,"50 years, 9 months, 10 days"
-21y,male,"46 years, 5 months, 15 days"
-21y,female,"49 years, 9 months, 24 days"
-22y,male,"45 years, 6 months, 24 days"
-22y,female,"48 years, 10 months, 8 days"
-23y,male,"44 years, 8 months, 5 days"
-23y,female,"47 years, 10 months, 25 days"
-24y,male,"43 years, 9 months, 19 days"
-24y,female,"46 years, 11 months, 14 days"
-25y,male,"42 years, 11 months, 5 days"
-25y,female,"46 years, 0 months, 6 days"
-26y,male,"42 years, 0 months, 24 days"
-26y,female,"45 years, 1 months, 2 days"
-27y,male,"41 years, 2 months, 14 days"
-27y,female,"44 years, 2 months, 1 days"
-28y,male,"40 years, 4 months, 7 days"
-28y,female,"43 years, 3 months, 3 days"
-29y,male,"39 years, 6 months, 0 days"
-29y,female,"42 years, 4 months, 9 days"
-30y,male,"38 years, 7 months, 25 days"
-30y,female,"41 years, 5 months, 17 days"
-31y,male,"37 years, 9 months, 21 days"
-31y,female,"40 years, 6 months, 28 days"
-32y,male,"36 years, 11 months, 17 days"
-32y,female,"39 years, 8 months, 11 days"
-33y,male,"36 years, 1 months, 16 days"
-33y,female,"38 years, 9 months, 28 days"
-34y,male,"35 years, 3 months, 17 days"
-34y,female,"37 years, 11 months, 18 days"
-35y,male,"34 years, 5 months, 22 days"
-35y,female,"37 years, 1 months, 11 days"
-36y,male,"33 years, 8 months, 0 days"
-36y,female,"36 years, 3 months, 7 days"
-37y,male,"32 years, 10 months, 11 days"
-37y,female,"35 years, 5 months, 7 days"
-38y,male,"32 years, 0 months, 26 days"
-38y,female,"34 years, 7 months, 8 days"
-39y,male,"31 years, 3 months, 13 days"
-39y,female,"33 years, 9 months, 11 days"
-40y,male,"30 years, 6 months, 1 days"
-40y,female,"32 years, 11 months, 15 days"
-41y,male,"29 years, 8 months, 21 days"
-41y,female,"32 years, 1 months, 19 days"
-42y,male,"28 years, 11 months, 12 days"
-42y,female,"31 years, 3 months, 23 days"
-43y,male,"28 years, 2 months, 4 days"
-43y,female,"30 years, 5 months, 26 days"
-44y,male,"27 years, 4 months, 28 days"
-44y,female,"29 years, 7 months, 30 days"
-45y,male,"26 years, 7 months, 23 days"
-45y,female,"28 years, 10 months, 3 days"
-46y,male,"25 years, 10 months, 19 days"
-46y,female,"28 years, 0 months, 6 days"
-47y,male,"25 years, 1 months, 17 days"
-47y,female,"27 years, 2 months, 10 days"
-48y,male,"24 years, 4 months, 15 days"
-48y,female,"26 years, 4 months, 14 days"
-49y,male,"23 years, 7 months, 16 days"
-49y,female,"25 years, 6 months, 20 days"
-50y,male,"22 years, 10 months, 17 days"
-50y,female,"24 years, 8 months, 27 days"
-51y,male,"22 years, 1 months, 20 days"
-51y,female,"23 years, 11 months, 6 days"
-52y,male,"21 years, 4 months, 25 days"
-52y,female,"23 years, 1 months, 17 days"
-53y,male,"20 years, 8 months, 0 days"
-53y,female,"22 years, 4 months, 0 days"
-54y,male,"19 years, 11 months, 9 days"
-54y,female,"21 years, 6 months, 16 days"
-55y,male,"19 years, 2 months, 20 days"
-55y,female,"20 years, 9 months, 4 days"
-56y,male,"18 years, 6 months, 3 days"
-56y,female,"19 years, 11 months, 25 days"
-57y,male,"17 years, 9 months, 19 days"
-57y,female,"19 years, 2 months, 19 days"
-58y,male,"17 years, 1 months, 8 days"
-58y,female,"18 years, 5 months, 15 days"
-59y,male,"16 years, 5 months, 1 days"
-59y,female,"17 years, 8 months, 16 days"
-60y,male,"15 years, 8 months, 29 days"
-60y,female,"16 years, 11 months, 21 days"
-61y,male,"15 years, 1 months, 0 days"
-61y,female,"16 years, 3 months, 0 days"
-62y,male,"14 years, 5 months, 6 days"
-62y,female,"15 years, 6 months, 14 days"
-63y,male,"13 years, 9 months, 17 days"
-63y,female,"14 years, 10 months, 3 days"
-64y,male,"13 years, 2 months, 2 days"
-64y,female,"14 years, 1 months, 28 days"
-65y,male,"12 years, 6 months, 24 days"
-65y,female,"13 years, 5 months, 29 days"
-66y,male,"11 years, 11 months, 19 days"
-66y,female,"12 years, 10 months, 6 days"
-67y,male,"11 years, 4 months, 21 days"
-67y,female,"12 years, 2 months, 20 days"
-68y,male,"10 years, 9 months, 28 days"
-68y,female,"11 years, 7 months, 10 days"
-69y,male,"10 years, 3 months, 11 days"
-69y,female,"11 years, 0 months, 7 days"
-70y,male,"9 years, 9 months, 0 days"
-70y,female,"10 years, 5 months, 12 days"
-71y,male,"9 years, 2 months, 26 days"
-71y,female,"9 years, 10 months, 24 days"
-72y,male,"8 years, 8 months, 28 days"
-72y,female,"9 years, 4 months, 13 days"
-73y,male,"8 years, 3 months, 6 days"
-73y,female,"8 years, 10 months, 10 days"
-74y,male,"7 years, 9 months, 22 days"
-74y,female,"8 years, 4 months, 14 days"
-75y,male,"7 years, 4 months, 14 days"
-75y,female,"7 years, 10 months, 25 days"
-76y,male,"6 years, 11 months, 14 days"
-76y,female,"7 years, 5 months, 14 days"
-77y,male,"6 years, 6 months, 21 days"
-77y,female,"7 years, 0 months, 9 days"
-78y,male,"6 years, 2 months, 4 days"
-78y,female,"6 years, 7 months, 12 days"
-79y,male,"5 years, 9 months, 25 days"
-79y,female,"6 years, 2 months, 23 days"
-80y,male,"5 years, 5 months, 23 days"
-80y,female,"5 years, 10 months, 10 days"
+0,male,81.73579758008849
+0,female,89.15760447033408
+1,male,81.7348444144093
+1,female,89.15651031938162
+2,male,81.73388783044376
+2,female,89.15541311928382
+3,male,81.73292783044516
+3,female,89.15431287204001
+4,male,81.73196441666686
+4,female,89.15320957964964
+5,male,81.73099759136223
+5,female,89.15210324411223
+6,male,81.73002735678452
+6,female,89.150993867427
+7,male,81.72905371518704
+7,female,89.14988145159347
+8,male,81.72807666882314
+8,female,89.148765998611
+9,male,81.72709621994615
+9,female,89.14764751047902
+10,male,81.72611237080942
+10,female,89.1465259891969
+11,male,81.72512512366622
+11,female,89.14540143676412
+12,male,81.7241344807699
+12,female,89.14427385518
+13,male,81.72314044437377
+13,female,89.143143246444
+14,male,81.7221430167312
+14,female,89.14200961255553
+15,male,81.72114220009549
+15,female,89.14087295551396
+16,male,81.72013799671991
+16,female,89.13973327731867
+17,male,81.71913040885781
+17,female,89.13859057996909
+18,male,81.71811943876256
+18,female,89.13744486546466
+19,male,81.71710508868746
+19,female,89.13629613580477
+20,male,81.71608736088578
+20,female,89.13514439298882
+21,male,81.71506625761094
+21,female,89.13398963901624
+22,male,81.71404178111618
+22,female,89.13283187588637
+23,male,81.71301393365492
+23,female,89.13167110559871
+24,male,81.71198271748038
+24,female,89.13050733015257
+25,male,81.7109481348459
+25,female,89.12934055154739
+26,male,81.70991018800484
+26,female,89.12817077178256
+27,male,81.7088688792105
+27,female,89.12699799285754
+28,male,81.70782421071624
+28,female,89.12582221677171
+29,male,81.70677618477532
+29,female,89.12464344552446
+30,male,81.70572480364113
+30,female,89.12346168111513
+31,male,81.70467006956694
+31,female,89.12227692554326
+32,male,81.70361198480617
+32,female,89.12108918080826
+33,male,81.702550551612
+33,female,89.11989844890935
+34,male,81.70148577223782
+34,female,89.1187047318461
+35,male,81.70041764893695
+35,female,89.11750803161785
+36,male,81.69934618396275
+36,female,89.11630835022405
+37,male,81.69827137956855
+37,female,89.11510568966406
+38,male,81.69719323800757
+38,female,89.11390005193729
+39,male,81.69611176153322
+39,female,89.11269143904316
+40,male,81.69502695239882
+40,female,89.1114798529811
+41,male,81.6939388128577
+41,female,89.11026529575051
+42,male,81.6928473451631
+42,female,89.10904776935075
+43,male,81.69175255156848
+43,female,89.10782727578125
+44,male,81.69065443432703
+44,female,89.10660381704143
+45,male,81.68955299569214
+45,female,89.10537739513063
+46,male,81.68844823791716
+46,female,89.10414801204837
+47,male,81.6873401632553
+47,female,89.10291566979389
+48,male,81.68622877396002
+48,female,89.10168037036675
+49,male,81.68511407228458
+49,female,89.10044211576633
+50,male,81.68399606048236
+50,female,89.09920090799204
+51,male,81.68287474080655
+51,female,89.0979567490432
+52,male,81.68175011551058
+52,female,89.09670964091926
+53,male,81.68062218684777
+53,female,89.09545958561966
+54,male,81.67949095707141
+54,female,89.09420658514375
+55,male,81.67835642843484
+55,female,89.09295064149097
+56,male,81.67721860319136
+56,female,89.09169175666072
+57,male,81.67607748359437
+57,female,89.09042993265243
+58,male,81.67493307189704
+58,female,89.08916517146541
+59,male,81.6737853703529
+59,female,89.08789747509925
+60,male,81.6726343812151
+60,female,89.08662684555317
+61,male,81.67148010673704
+61,female,89.08535328482664
+62,male,81.670322549172
+62,female,89.08407679491904
+63,male,81.66916171077338
+63,female,89.08279737782986
+64,male,81.66799759379445
+64,female,89.08151503555843
+65,male,81.6668302004885
+65,female,89.08022977010418
+66,male,81.66565953310894
+66,female,89.07894158346649
+67,male,81.66448559390906
+67,female,89.07765047764485
+68,male,81.66330838514213
+68,female,89.07635645463856
+69,male,81.66212790906154
+69,female,89.07505951644704
+70,male,81.66094416792053
+70,female,89.07375966506977
+71,male,81.65975716397256
+71,female,89.07245690250606
+72,male,81.65856689947081
+72,female,89.07115123075539
+73,male,81.65737337666872
+73,female,89.06984265181711
+74,male,81.65617659781954
+74,female,89.0685311676907
+75,male,81.65497656517663
+75,female,89.06721678037549
+76,male,81.65377328099332
+76,female,89.06589949187095
+77,male,81.65256674752287
+77,female,89.06457930417643
+78,male,81.65135696701864
+78,female,89.06325621929132
+79,male,81.65014394173396
+79,female,89.0619302392151
+80,male,81.6489276739222
+80,female,89.06060136594712
