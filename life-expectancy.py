@@ -8,6 +8,11 @@ import math
 # sex
 sex = ['male', 'female']
 
+u_sex = []
+for each in range(82):
+    u_sex.append('male')
+    u_sex.append('female')
+
 # country
 c_url = 'http://api.population.io:80/1.0/countries'     # get the available list of countries
 c = requests.get(c_url)
@@ -23,7 +28,14 @@ if country not in c_available:
 # age
 age = []
 for num in range(81):
-    age.append(str(num)) # originally had a [ + 'y'], to clarify that it's in years
+    age.append(str(num) + 'y')
+    
+actual_age = [0]    # this one will be used for 'uglylifechart'
+num = 0
+while num != 83:
+    actual_age.append(num)
+    num += 1
+    actual_age.append(num)
 
 # date
 date = str(datetime.date.today())
@@ -35,17 +47,17 @@ date = str(datetime.date.today())
 life_expectancy = 'blah'
 
 # define function
-# def years(remaining):
-#     global life_expectancy
+def years(remaining):
+    global life_expectancy
     
-#     rem = float(remaining)       # convert 'remaining' to a float
-#     year = math.floor(rem)       # number of full years
-#     m = (rem - year) * 12       # months left over
-#     month = math.floor(m)       # number of full months
-#     d = (m - month) * 30.4375       # days left over (30.4375 is the average number of days per month)
-#     day = math.floor(d)       # number of full days
+    rem = float(remaining)       # convert 'remaining' to a float
+    year = math.floor(rem)       # number of full years
+    m = (rem - year) * 12       # months left over
+    month = math.floor(m)       # number of full months
+    d = (m - month) * 30.4375       # days left over (30.4375 is the average number of days per month)
+    day = math.floor(d)       # number of full days
     
-#     life_expectancy = str(year) + ' years, ' + str(month) + ' months, ' + str(day) + ' days'
+    life_expectancy = str(year) + ' years, ' + str(month) + ' months, ' + str(day) + ' days'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -77,10 +89,32 @@ w.writerow(['age', 'sex', 'life remaining'])
 for a in age:
     for s in sex:
         api()       # call api function for remaining life expectancy
-        # years(remaining)        # call years converter function
-        w.writerow([a, s, float(remaining)])     # write 'age', 'sex', and 'remaining life expectancy' to the file
+        years(remaining)        # call years converter function
+        w.writerow([a, s, life_expectancy])     # write 'age', 'sex', and 'remaining life expectancy' to the file
             
 # close file
 lifechart.close()
 
 print('Open the lifechart, and scroll through until you reach your age. Happy searching.')
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# UGLIER CSV FILE:
+# new file
+uglylifechart = open('uglylifechart.csv', 'w', newline='')
+
+# create the writer
+u = csv.writer(uglylifechart, delimiter=',')
+
+# write to the file
+u.writerow(['age', 'sex', 'life remaining'])
+u_remaining = []
+for a in age:
+    for s in sex:
+        api()
+        u_remaining.append(remaining)
+        
+for x in range(162):
+    u.writerow([actual_age[x], u_sex[x], u_remaining[x]])
+        
+uglylifechart.close()
