@@ -17,7 +17,7 @@ for c in df['age']:     # for each 'item' in the column 'age'
 # output to static html file
 output_file('line.html')
 
-p = figure(plot_width=400, plot_height=400)
+p = figure(plot_width=1200, plot_height=800)
 
 # create the circles
 p.circle(current_age, life_remaining, size=10, color='lavender', alpha=0.5)
