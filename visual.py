@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from bokeh.plotting import figure, output_file, save
+from bokeh.charts import Scatter, output_file, save
 
 df = pd.read_csv('uglylifechart.csv')   # read the data from the lifechart file
 
@@ -14,10 +14,10 @@ current_age = []
 for c in df['age']:     # for each 'item' in the column 'age'
     current_age.append(c)       # add 'item' to the list 'current_age'
 
-# output to static html file
-output_file('line.html')
+p = Scatter(df, x='age', y='life remaining', xlabel='current age', ylabel='life remaining', title='determine how long you have left to live')
 
-p = figure(plot_width=1200, plot_height=800)
+# file
+output_file('life.html')
 
 # create the circles
 p.circle(current_age, life_remaining, size=10, color='lavender', alpha=0.5)
