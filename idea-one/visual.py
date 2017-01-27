@@ -21,15 +21,6 @@ current_age = []
 for c in df['age']:     # for each 'item' in the column 'age'
     current_age.append(c)       # add 'item' to the list 'current_age'
 
-        
-# hover
-hover = HoverTool(
-        tooltips=[
-            ('age', '@age')
-            ('remaining', '@lifs')
-        ]
-    )
-
 
 p = figure(plot_width=1500, plot_height=900, x_axis_label='current age', y_axis_label='life remaining', tools=[hover])
 

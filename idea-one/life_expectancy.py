@@ -43,25 +43,6 @@ def an_approximation_of_how_long_you_have_until_you_die():
     
     # ~~~~~~~~~~~~~~~~~~~~~~~~~
     
-    # FUNCTION TO CONVERT FROM YEARS DECIMAL TO 'YEARS, MONTHS, DAYS':
-    # set empty variable
-    life_expectancy = 'blah'
-    
-    # define function
-    # def years(remaining):
-    #     global life_expectancy
-        
-    #     rem = float(remaining)       # convert 'remaining' to a float
-    #     year = math.floor(rem)       # number of full years
-    #     m = (rem - year) * 12       # months left over
-    #     month = math.floor(m)       # number of full months
-    #     d = (m - month) * 30.4375       # days left over (30.4375 is the average number of days per month)
-    #     day = math.floor(d)       # number of full days
-        
-    #     life_expectancy = str(year) + ' years, ' + str(month) + ' months, ' + str(day) + ' days'
-    
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~
-    
     # FUNCTION FOR THE REMAINING LIFE API:
     # set empty variable
     remaining = 'blah'
@@ -78,29 +59,7 @@ def an_approximation_of_how_long_you_have_until_you_die():
     
     # ~~~~~~~~~~~~~~~~~~~~~~~~~
     
-    # CSV: (original file, but not the one used for the visual representation)
-    # new csv file
-    lifechart = open('lifechart.csv', 'w', newline='')
-    
-    # create the writer
-    w = csv.writer(lifechart, delimiter=',')
-    
-    # write to the file
-    w.writerow(['age', 'sex', 'life remaining'])
-    for a in age:
-        for s in sex:
-            api()       # call api function for remaining life expectancy
-            years(remaining)        # call years converter function
-            w.writerow([a, s, life_expectancy])     # write 'age', 'sex', and 'remaining life expectancy' to the file
-                
-    # close file
-    lifechart.close()
-    
-    print('Open the lifechart, and scroll through until you reach your age. Happy searching.')
-    
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~
-    
-    # UGLIER CSV FILE: (used for the visual representation)
+    # CSV FILE:
     # new file
     uglylifechart = open('uglylifechart.csv', 'w', newline='')
     
